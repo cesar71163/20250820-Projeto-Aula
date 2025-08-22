@@ -1,2 +1,64 @@
-.env
+# 🐍 Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📦 Ambientes virtuais
+venv/
+env/
+.venv/
+.env/
+
+# 📁 Configurações e arquivos secretos
+*.env
+*.ini
+*.cfg
+*.secret
+*.key
+
+# 🧪 Logs e relatórios
+*.log
+*.out
+*.coverage
+coverage/
+htmlcov/
+
+# 🧪 Testes e ferramentas
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# 📚 Documentação gerada
+docs/_build/
+
+# 🧠 IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🖼️ Arquivos temporários e de sistema
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 📦 Distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# 🐳 Docker
+*.pid
+*.db
+*.sqlite3
+docker-compose.override.yml
+
 20250820-Projeto-Aula.code-workspace
